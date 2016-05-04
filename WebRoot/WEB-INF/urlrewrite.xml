@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlrewrite>
+	<rule>
+		<from>^/index-(\w*)-(\w*)-(\w*)\.html/?$</from>
+		<to type="forward">/index.jsp?userId=$1&amp;pageId=$2&amp;itemId=$3</to>
+	</rule>
+</urlrewrite>
